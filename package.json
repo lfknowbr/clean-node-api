@@ -4,7 +4,8 @@
   "description": "Clean Architecture",
   "main": "index.js",
   "scripts": {
-    "test": "jest --silent --colors --noStackTrace --passWithNoTests"
+    "test": "jest --watchAll --silent --colors --noStackTrace --passWithNoTests",
+    "test:staged":"jest"
   },
   "standard": {
     "env": [
