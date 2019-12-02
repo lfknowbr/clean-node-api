@@ -4,7 +4,12 @@
   "description": "Clean Architecture",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --silent --colors --noStackTrace --passWithNoTests"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,6 +33,7 @@
     "standard": "^14.3.1"
   },
   "dependencies": {
+    "@types/jest": "^24.0.23",
     "express": "^4.17.1",
     "mongoose": "^5.7.13"
   }
