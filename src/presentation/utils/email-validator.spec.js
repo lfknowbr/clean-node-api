@@ -1,0 +1,5 @@
+describe('Email Validator', () => {
+  test('', () => {
+
+  })
+})
