@@ -1,5 +1,12 @@
+class EmailValidador {
+  isValid (email) {
+    return true
+  }
+}
 describe('Email Validator', () => {
-  test('', () => {
-
+  test('Should return true if validator returns true', () => {
+    const sut = new EmailValidador()
+    const isEmailValid = sut.isValid('valid_email@mail.com')
+    expect(isEmailValid).toBe(true)
   })
 })
